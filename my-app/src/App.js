@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './componets/Login';
 import Button from '@mui/material/Button';
-
+import Typography from '@mui/material/Typography';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hottest song Each through 1950 to 2019
@@ -50,7 +51,9 @@ function App() {
         href="https://www.youtube.com/watch?v=UlLX7a1QH8Y"
         rel="noopener noreferrer"
         color="secondary">1st 1970s</Button>
-      </header>
+      </header> */}
+
+      <Login></Login>
     </div>
   );
 }
