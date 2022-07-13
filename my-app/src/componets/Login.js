@@ -42,6 +42,16 @@ const Login = () => {
             required>
         </TextField>
 
+        <TextField
+            label= 'Password'
+            style={textfield}
+            placeholder='Enter Password'
+            type='password'
+            fullWidth
+            required>
+                
+            </TextField>
+
         <FormControlLabel
             control = {
                 <Checkbox
